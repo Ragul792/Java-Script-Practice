@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h1>JavaScript Variables</h1>
+
+    <p>In this example, price1, price2, and total are variables.</p>
+
+    <p id="demo"></p>
+
+    <h2>JavaScript const</h2>
+
+    <p>Declaring a constant array does NOT make the elements unchangeable:</p>
+
+    <p id="demo1"></p>
+
+    <script>
+
+        const price1 = 5;
+        const price2 = 6;
+        let total = price1 + price2;
+        document.getElementById("demo").innerHTML ="The total is: " + total;
+
+        const cars = ["Saab", "Volvo", "BMW"];
+
+        // Change an element:
+        cars[0] = "Toyota";
+
+        // Add an element:
+        cars.push("Audi");
+
+        // Display the Array:
+        document.getElementById("demo1").innerHTML = cars; 
+
+    </script>
+
+</body>
+</html>

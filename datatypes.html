@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <p>JavaScript evaluates expressions from left to right. Different sequences can produce different results:</p>
+
+    <p id="demo"></p>
+
+    <script>
+    
+        // Numbers:
+        let length = 16;
+        let weight = 7.5;
+
+        // Strings:
+        let color = "Yellow";
+        let lastName = "Johnson";
+
+        // Booleans
+        let x = true;
+        let y = false;
+
+        //Big Int
+        let bigInt = BigInt("123456789012345678901234567890");
+
+        // Object:
+        const person = {firstName:"John", lastName:"Doe"};
+
+        // Array object:
+        const cars = ["Saab", "Volvo", "BMW"];
+
+        // Date object:
+        const date = new Date("2022-03-25");
+
+
+        let numStr= 16 + 4 + "Volvo";
+        document.getElementById("demo").innerHTML = numStr;
+
+        let carName1 = "Volvo XC60";
+        let carName2 = 'Volvo XC60';
+
+        document.getElementById("demo").innerHTML = carName1 + "<br>" + carName2;
+        
+        typeof 0              
+        typeof 314            
+        typeof 3.14
+
+        typeof ""             
+        typeof "John"
+
+    </script>
+    
+</body>
+</html>
+    
